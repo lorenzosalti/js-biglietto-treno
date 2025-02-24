@@ -7,3 +7,14 @@ const oversMinAge = 65;
 let ticketPrice = undefined;
 let age = prompt('Quanti anni hai?');
 let km = prompt('Quanti Km devi percorrere?');
+let ageVerify;
+let kmVerify;
+
+// data verification
+ageVerify = parseInt(age);
+kmVerify = parseInt(km);
+
+if ((Number.isNaN(ageVerify)) || (Number.isNaN(kmVerify))) {
+  alert('I dati inseriti non sono corretti');
+  alert('Ricaricare la pagina');
+} 
