@@ -20,7 +20,9 @@ if ((Number.isNaN(age)) || (Number.isNaN(km))) {
   if (age < minorsAgeLimit) {
     ticketPrice = ticketPrice - (ticketPrice * minorsDiscount / 100);
   };
-
+  if (age >= oversMinAge) {
+    ticketPrice = ticketPrice - (ticketPrice * oversDiscount / 100);
+  };
 
 };
 console.log(ticketPrice);
