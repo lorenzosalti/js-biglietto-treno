@@ -23,6 +23,7 @@ Creare un prgramma in linguaggio JavaScript che gestisca il costo di biglietti p
 
 - Raccogliere l'informazione dei km da percorrere
 - Raccogliere l'informazione sull'età del passeggero
+- Verificare che i dati siano coerenti
 - Moltiplicare i km da percorrere per il costo al km
 - SE l'età del passeggero è minore di 18 anni
   - Applicare lo sconto per minorenni al prezzo del biglietto
