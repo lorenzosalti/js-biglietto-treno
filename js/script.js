@@ -23,6 +23,6 @@ if ((Number.isNaN(age)) || (Number.isNaN(km))) {
   if (age >= oversMinAge) {
     ticketPrice = ticketPrice - (ticketPrice * oversDiscount / 100);
   };
-
+  ticketPrice = ticketPrice.toFixed(2);
 };
 console.log(ticketPrice);
